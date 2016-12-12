@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Why did the programmer quit his job?<br>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/client.js"></script>
+</head>
+<body>
+  <h1>Awesome Calculator</h1>
+  <form>
+    <input id="val1">
+    <select id="operator">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+    </select>
+    <input id="val2">
+    <input id="calculateButton" type="button" value="Calculate the thing!!!">
+    <input id="clearButton" type="button" value="Clear that form!!">
+  </form>
+  <div id="outputDiv">No results yet</div>
+</body>
 </html>
